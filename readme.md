@@ -26,7 +26,6 @@ booking_software/
 ├── tests/
 │   ├── test_bookings.py
 │   └── test_classes.py
-├── .env
 ├── main.py
 ├── requirements.txt
 └── README.md

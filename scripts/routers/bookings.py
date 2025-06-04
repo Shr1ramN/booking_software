@@ -3,7 +3,6 @@ from typing import List
 from scripts.schemas.schemas import BookingRequest, BookingResponse
 from scripts.services import booking_service
 
-# Create a new API router for booking-related endpoints
 router = APIRouter()
 
 @router.post("/", response_model=BookingResponse)
